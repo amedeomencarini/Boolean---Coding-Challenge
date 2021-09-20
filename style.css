@@ -1,0 +1,79 @@
+/* GENERALE */
+* {
+  margin:0;
+  box-sizing: content-box;
+}
+
+body {
+  font-family: Poppins;
+  color: white;
+  background: url("MaterialeEsercizioLim/background.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
+.container {
+  width: 60%;
+  margin:50px auto;
+  padding:50px;
+  background-color: RGBA(0,0,0,0.5);
+  border-radius: 20px;
+}
+
+/* LOGO E TAGLINE */
+.logo-tagline {
+  text-align: center;
+}
+
+#logo {
+  width:250px;
+}
+
+.tagline {
+  color: RGB(0,255,0);
+}
+
+/* FORM */
+.form-row {
+  background-color: RGB(0,255,0);
+  padding: 10px;
+  text-align: center;
+}
+
+
+/* LISTA MONOPATTINI */
+.monopattino {
+  margin:20px 0px;
+}
+
+.monopattino > input[type="checkbox"] {
+  margin: 5px 5px 0 0;
+}
+
+.monopattino > h2{
+  display: inline;
+}
+
+.freccia-dx:after {
+  content: "\21A6";
+  margin-right: 5px;
+}
+
+.carica {
+  height:20px;
+  border-radius: 6px;
+}
+
+.monopattino:nth-child(1) > .carica{
+  width:45%;
+  background-color: RGB(255,200,0);
+}
+
+.monopattino:nth-child(2) > .carica{
+  width:70%;
+  background-color: RGB(0,230,0);
+}
+
+.monopattino:nth-child(3) > .carica{
+  width:20%;
+  background-color: RGB(255,0,0);
+}
