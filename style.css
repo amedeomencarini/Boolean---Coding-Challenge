@@ -14,7 +14,7 @@ body {
 .container {
   width: 60%;
   margin:50px auto;
-  padding:50px;
+  padding:70px;
   background-color: RGBA(0,0,0,0.5);
   border-radius: 20px;
 }
@@ -75,5 +75,5 @@ body {
 
 .monopattino:nth-child(3) > .carica{
   width:20%;
-  background-color: RGB(255,0,0);
+  background-color: RGB(230,0,0);
 }
